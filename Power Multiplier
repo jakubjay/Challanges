@@ -1,0 +1,17 @@
+//Challenge .16
+
+package thescanner;
+import java.util.Scanner;
+
+public class TheScanner {
+    public static void main(String[] args) {
+        Scanner num = new Scanner(System.in);
+        System.out.println("Please enter a number: ");
+        int n = num.nextInt();
+        Scanner pow = new Scanner(System.in);
+        System.out.println("Please enter a number: ");
+        int p = pow.nextInt();
+        int ans = ((n * n) * p);
+        System.out.println(n + " to the power of " + p + " is " + ans);
+    }
+}
